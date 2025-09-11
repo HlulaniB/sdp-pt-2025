@@ -1,10 +1,15 @@
 {
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@vercel/static-build",
-            "config": { "distDir": "dist" }
-        }
-    ],
-    "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ],
+  "routes": [
+    // Serve static assets first
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    // Then redirect all other routes to index.html
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
