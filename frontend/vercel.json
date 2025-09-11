@@ -7,9 +7,7 @@
     }
   ],
   "routes": [
-    // Serve static assets first
     { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    // Then redirect all other routes to index.html
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
