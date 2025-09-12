@@ -7,6 +7,16 @@ sidebar_label: Project Overview
 
 Let's discover **Campus Buddy in less than 5 minutes**.
 
+## Project Members
+
+| Name               | Role                 | Contact                     |
+|--------------------|----------------------|-----------------------------|
+| Mpumelelo Ntobi    | Testing              | ntobimpumelelo@gmail.com    |
+| Clement Jele       | Full Stack Developer | Clemyjele@gmail.com         |
+| Carl Sebastian     | Backend Developer    | csgermishuys@gmail.com      |
+| Hlulani Baloyi     | Frontend Developer   | baloyihlulani91@gmail.com   |
+| Njabulo Maluleke   | Frontend Developer   | 2603857@students.wits.ac.za |
+
 ## About the Project
 
 A platform that helps students **find study partners**, **join study groups**, **schedule group sessions**, and **track topics** they have covered. It is university community forum / social media to help students improve their experience with university work.
